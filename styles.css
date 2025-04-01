@@ -35,7 +35,7 @@ form {
 fieldset {
     border: none;
     padding: 0.5rem 0;
-    border-bottom: 3px solid var(--acento);
+    border-bottom: 2.5px solid var(--acento);
 }
 
 fieldset:last-of-type {
@@ -50,7 +50,7 @@ label {
 input {
     background-color: var(--acento);
     border: 1px solid white;
-    color: red;
+    color: white;
 }
 
 
@@ -61,8 +61,8 @@ input[type="submit"] {
     margin: 1em auto;
     height: 2em;
     font-size: 1.1rem;
-    background-color: yellow;
-    border-color: aquamarine;
+    background-color: var(--acento);
+    border-color: var(--acento);
     min-width: 300px;
 }
 
@@ -71,7 +71,16 @@ input[type="submit"] {
     background-color: #FFFF;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 10px;
     max-width: 500px;
     color: black;
-    padding: 20px;
+    padding: 15px;
+}
+
+input::placeholder {
+    color: white;
+}
+
+#feedback::placeholder {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
