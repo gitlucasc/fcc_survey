@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FORMULARIO</title>
+        <meta lang="es">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        
+        <div class="menu">
+            <section>
+                <h1 id="title">FORMULARIO</h1>
+                <p id="description">Este es un formulario de satisfacción con nuestro producto.</p>
+            </section>
+            <form id="survey-form" method="POST" action="index.html">
+                <fieldset id="namemailnum">
+                    <legend><b>Ingresa tus datos:</b></legend>
+                    <label for="text" id="name-label">Nombre: <input id="name" type="text" required placeholder="Tu primer nombre."></label>
+                    <label for="email" id="email-label">Email: <input id="email" type="email" required placeholder="Tu email."></label>
+                    <label for="age" id="number-label">Edad: <input id="number" type="number" required min="18" max="120" placeholder="Tu edad."></label>
+                </fieldset>        
+                <fieldset>
+                    <legend><b>Tu área:</b></legend>
+                    <select id="dropdown">
+                        <option value="">Selecciona una.</option>
+                        <option value="1">Lorem 1</option>
+                        <option value="2">Lorem 2</option>
+                        <option value="3">Lorem 3</option>
+                    </select>
+                    
+                </fieldset>
+                <fieldset>
+                    <legend><b>Escala de satisfacción:</b></legend>
+                    <label for="1"><input id="1" name="satis" type="radio" value="1">1. Para nada satisfecho.</label>
+                    <label for="2"><input id="3" name="satis" type="radio" value="2">2. No satisfecho.</label>
+                    <label for="3"><input id="3" name="satis" type="radio" value="3">3. Más o menos satisfecho.</label>
+                    <label for="4"><input id="4" name="satis" type="radio" value="4">4. Satisfecho.</label>
+                    <label for="5"><input id="5" name="satis" type="radio" value="5">5. Más que satisfecho.</label>
+                    <label for="feedback">¿Cómo crees que podriamos mejorar?</label>
+                    <textarea id="feedback" rows="3" cols="30" placeholder="Me gustaría..."></textarea>
+                </fieldset>
+                <fieldset>
+                    <legend><b>¿Cuáles de nuestros productos tienes?</b></legend>
+                    <label for="holo"><input id="holo" name="holo" type="checkbox" value="holo">HoloPhone</label>
+                    <label for="sneakerx"><input id="sneakerx" name="sneakerx" type="checkbox" value="sneakerx">SneakerX</label>
+                    <label for="smartwall"><input id="smartwall" name="smartwall" type="checkbox" value="smartwall">SmartWall</label>
+                    <label for="neuro"><input id="neuro" name="neuro" type="checkbox" value="neuro">NeuroSync Band</label>
+                    <label for="ninguno"><input id="ninguno" name="ninguno" type="checkbox" value="null">No tengo ninguno.</label>
+                </fieldset>
+                <label for="submit"><input id="submit" type="submit"></label>
+
+            </form>
+        </div> 
+
+    </body>
+</html>

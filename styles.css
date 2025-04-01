@@ -1,0 +1,77 @@
+:root {
+--acento: #FF5154
+}
+
+#title, #description {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    width:100%;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(https://media.discordapp.net/attachments/679828812204474456/1356597735901630564/96dfaa75b0644028a3162ee4684ab040.jpg?ex=67ed2598&is=67ebd418&hm=790f8b17594e585c20283053cde1c75989ec772acb4c2fd107aba9b2d14b0be3&=&format=webp);
+}
+
+/*
+fondos
+
+https://i.pinimg.com/736x/2d/a4/16/2da416069f47e168f5463164a42084b0.jpg
+https://i.pinimg.com/736x/96/df/aa/96dfaa75b0644028a3162ee4684ab040.jpg alicia
+https://i.pinimg.com/736x/7e/3f/63/7e3f63548eddbe5589628a455ea23427.jpg 
+
+*/
+
+form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+fieldset {
+    border: none;
+    padding: 0.5rem 0;
+    border-bottom: 3px solid var(--acento);
+}
+
+fieldset:last-of-type {
+    border-bottom: none;
+}
+
+label {
+    display:block;
+    margin: 0.5rem 0;
+}
+
+input {
+    background-color: var(--acento);
+    border: 1px solid white;
+    color: red;
+}
+
+
+
+input[type="submit"] {
+    display: block;
+    width: 50%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: yellow;
+    border-color: aquamarine;
+    min-width: 300px;
+}
+
+.menu {
+    width: 80%;
+    background-color: #FFFF;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    color: black;
+    padding: 20px;
+}
