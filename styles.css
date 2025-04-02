@@ -15,6 +15,13 @@ body {
     background-image: url(https://raw.githubusercontent.com/gitlucasc/fcc_survey/refs/heads/main/assets/pattern.jpg);
 }
 
+#logo {
+ height: 100px;
+ display: block;
+ margin: auto;
+  
+}
+
 /*
 fondos
 
